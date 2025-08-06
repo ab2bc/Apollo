@@ -2,7 +2,7 @@
 <img src="https://raw.githubusercontent.com/MystenLabs/sui/refs/heads/main/docs/site/static/img/logo.svg" alt="Logo" width="100" height="100">
 </p>
 
-# Welcome to Sui
+# Welcome to Apollo, a clone of Sui described below:
 
 [![Github release](https://img.shields.io/github/v/tag/MystenLabs/sui.svg?sort=semver)](https://github.com/MystenLabs/sui/releases/latest)
 [![License](https://img.shields.io/github/license/MystenLabs/sui)](https://github.com/MystenLabs/sui/blob/main/LICENSE)
