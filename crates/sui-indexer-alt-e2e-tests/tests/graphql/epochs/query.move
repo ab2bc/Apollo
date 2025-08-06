@@ -55,6 +55,15 @@ fragment E on Epoch {
     totalObjectStorageRebates
     nonRefundableBalance
   }
+  safeMode {
+    enabled
+    gasSummary {
+      computationCost
+      storageCost
+      storageRebate
+      nonRefundableStorageFee
+    }
+  }
   systemStateVersion
   systemParameters {
     durationMs
@@ -73,6 +82,7 @@ fragment E on Epoch {
       periodLength
       decreaseRate
   }
+  liveObjectSetDigest
 }
 
 //# run-graphql
@@ -118,6 +128,15 @@ fragment E on Epoch {
     totalObjectStorageRebates
     nonRefundableBalance
   }
+  safeMode {
+    enabled
+    gasSummary {
+      computationCost
+      storageCost
+      storageRebate
+      nonRefundableStorageFee
+    }
+  }
   systemStateVersion
   systemParameters {
     durationMs
@@ -136,4 +155,5 @@ fragment E on Epoch {
       periodLength
       decreaseRate
   }
+  liveObjectSetDigest
 }
